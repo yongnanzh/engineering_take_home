@@ -101,6 +101,9 @@ If you want to run specs, you can run Rspec with from within the Docker containe
 RAILS_ENV=test bundle exec rspec
 ```
 
+## Env File 
+* Copy `.env.example` file to `.env` and replace placeholder values with real credentials.
+
 ## Run migration and seed the DB
 
 ```

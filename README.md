@@ -107,22 +107,19 @@ RAILS_ENV=test bundle exec rspec
 docker compose -f docker-compose.yml up -d --build db && 
 docker compose -f docker-compose.yml run --rm web bin/rails db:migrate && 
 docker compose -f docker-compose.yml run --rm web bin/rails db:seed
-
 ```
 
 ## Build and start service
 
 ```
 docker compose -f docker-compose.yml up -d --build web
-
 ```
 
 ## Stop service
 
 ```
 docker compose -f docker-compose.yml down
-
 ```
 
 # Demo
-![Screenshot 2025-11-16 at 4 34 49 PM](https://github.com/user-attachments/assets/2786821d-d020-4b9f-bd9a-ee81d1daa01f)
+![Screenshot 2025-11-16 at 4 34 49 PM](https://github.com/user-attachments/assets/543e1813-494c-467b-903d-0858afc22163)

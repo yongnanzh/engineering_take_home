@@ -122,4 +122,4 @@ docker compose -f docker-compose.yml down
 ```
 
 # Demo
-![Screenshot 2025-11-16 at 4 34 49 PM](https://github.com/user-attachments/assets/543e1813-494c-467b-903d-0858afc22163)
+![Screenshot 2025-11-16 at 5 03 01 PM](https://github.com/user-attachments/assets/4088a80f-90f7-4981-9582-9a79d1def8d2)

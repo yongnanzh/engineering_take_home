@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :buildings, only: [:create, :update, :index, :show]
-      resources :clients, only: [:index]
+      resources :clients, only: [:index, :show]
     end
   end
 end
